@@ -8,7 +8,7 @@ This project allows for downloading available message history from Slack server.
 $ git clone git@github.com:ordigital/slack-history-archiver.git
 ```
 
-### 2. Edit `config.yml` and put your token and cookie. Instructions for Chrome based browser:
+### 2. Edit `config.yaml` and put your token and cookie. Instructions for Chrome based browser:
 
 1. Open slack server in browser, for ex. https://YOURSERVER.slack.com
 2. Go to Dev Tools (F12) → Network. Refresh page and search for `info`. Queries with `info?p=48` or similar should appear. Click on it with left mouse button.
