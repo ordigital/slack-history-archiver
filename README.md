@@ -1,6 +1,8 @@
 # Slack History Archiver (aka Slackadoodoo)
 
-This project allows for downloading available message history from Slack server. History is limited in free accounts so this way you can keep private archive of messages by running script everyday via cron. To make it work you need only a website token and a cookie. Use at your own risk. I do not take any legal responsibility for data processed by this scripts. This is only a data collection tool for private use.
+This project allows you to download available message history from Slack server. History is limited in free accounts so this way you can keep private archive of messages by running script everyday via cron. To make it work you need only a website token and a cookie. There is also a simple UI based on Flask and Vue.
+
+**Use at your own risk. I do not take any legal responsibility for data processed by this scripts. This is only a data collection tool for private use.**
 
 ### 1. Download:
 
