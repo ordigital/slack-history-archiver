@@ -1,0 +1,11 @@
+version: "3"
+services:
+  app:
+    build: .
+    volumes:
+      - ./flask:/app/flask
+      - ./client:/app/client
+    container_name: slackadoodoo
+    ports:
+      - "5000:5000" # Vue
+      - "5001:5001" # Flask

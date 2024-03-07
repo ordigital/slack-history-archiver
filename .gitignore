@@ -1,0 +1,12 @@
+__pycache__/
+.vscode/
+data/*.sqlite
+data/__pycache__
+ui/client/.vscode/
+ui/flask/.vscode/
+ui/venv/
+ui/client/node_modules/
+ui/flask/__pycache__/
+ui/flask/*.sqlite
+*.sqlite
+config.yaml

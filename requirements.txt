@@ -1,0 +1,8 @@
+yaml
+requests
+sqlite3
+json
+time
+requests_toolbelt
+argparse
+colorama
