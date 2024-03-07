@@ -1,0 +1,15 @@
+# Get API:
+#   Copy your Slack server url and add /api, for ex. https://SERVER.slack.com/api/
+#
+# Get TOKEN: 
+#   In Chrome Developer Tools (F12) go to Network → Info → Payload → search for `info` and find token value
+#
+# Get COOKIE:
+#   Copy `info` payload as curl (right mouse button → copy as cURL) and copy cookie field content 
+#
+# Do not change database path otherwise you need to change it also in `start-ui.sh`
+
+database: data/slack.sqlite
+server: 
+token: 
+cookie: 
